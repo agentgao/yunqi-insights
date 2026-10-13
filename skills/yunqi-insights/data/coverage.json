@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "edition": 2026,
+  "snapshot_date": "2026-10-13",
+  "created_at": "2026-10-13T06:19:10.247Z",
+  "counts": {
+    "sessions": 87,
+    "topics": 752,
+    "supplements": 193,
+    "blocks": 20237,
+    "paragraphs": 32761,
+    "cues": 181731,
+    "missing_sessions": 32
+  },
+  "conference_session_count": 119,
+  "text_status": "完整修订讲稿，按原画面和段落组织",
+  "metadata_notice": "标题、简介、章节摘要与要点用于检索，不作为讲者逐字原话。",
+  "missing_checked_at": "2026-10-13T03:26:51.198Z",
+  "missing_sessions": [
+    {
+      "id": "108",
+      "title": "阿里云上的Salesforce：连接人、AI Agent与CRM平台共创客户成功",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=108",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "109",
+      "title": "Agent工程化：AgentCore让企业智能体走进生产",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=109",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "113",
+      "title": "SAP：AI智能体时代，迈向自主运营企业",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=113",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "117",
+      "title": "AI Native 磐久超节点服务器与硬件工程创新",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=117",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "122",
+      "title": "阿里云AI 产品伙伴共创会",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=122",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "132",
+      "title": "第十七期“现代新国企”研讨会",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=132",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "134",
+      "title": "日本企业AI实战：一线转型故事与落地成效",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=134",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "137",
+      "title": "问AI要增长：AI员工能干能信能打",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=137",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "140",
+      "title": "可信智行：金融智能体实战峰会",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=140",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "142",
+      "title": "芯云一体·驶向智能：2026阿里云汽车行业峰会",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=142",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "145",
+      "title": "国际AI智能体技术论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=145",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "153",
+      "title": "智启万物：AI原生硬件论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=153",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "158",
+      "title": "智达四方：物流出行AI论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=158",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "161",
+      "title": "AI设计原生力：Agentic Design工作坊",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=161",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "164",
+      "title": "Agentic AI 时代的算力与存储服务器革新",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=164",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "169",
+      "title": "专业决策，智能执行：财务价值再升级",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=169",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "172",
+      "title": "国际Agentic AI峰会",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=172",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "177",
+      "title": "“智启原生 研见未来” 阿里巴巴集团 AI Native 研发实践论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=177",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "180",
+      "title": "2026云栖大会AI Native 组织论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=180",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "184",
+      "title": "Go Vibe Designing：AI时代的设计新编译",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=184",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "190",
+      "title": "SaaS迎来Agent时刻：从研发提效到商业增长",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=190",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "191",
+      "title": "经营 · 进化：Agent时代的零售新增长",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=191",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "193",
+      "title": "千问大模型：迈向智能体时代的最新进展",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=193",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "195",
+      "title": "超节点 Scale-Up 开放互连与开源计算生态",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=195",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "198",
+      "title": "筑基·智启：AI时代数据中心的进化之路",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=198",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "199",
+      "title": "AI 时代的可观测与智能开发运维",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=199",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "208",
+      "title": "AI 原生研发组织论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=208",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "212",
+      "title": "AMD专场：构建AI新未来",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=212",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "214",
+      "title": "天猫3C数码专场：AI硬件新品牌增长论坛",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=214",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "220",
+      "title": "阿里巴巴ACCIO全球电商AI工作台发布会：AI大时代，全球生意新答案",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=220",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "227",
+      "title": "云栖学院Open Day",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=227",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    },
+    {
+      "id": "228",
+      "title": "2026“直通乌镇”全球互联网大赛OPC特色赛复赛杭州站",
+      "official_url": "https://yunqi.aliyun.com/2026/session?agendaId=228",
+      "reason": "官网回放接口仍显示回放生成中；没有可分析的完整文本"
+    }
+  ],
+  "speaker_display_revision": {
+    "date": "2026-10-13",
+    "rule": "讲者展示姓名不追加花名、昵称或基于声音推断的称呼；正文原话保留。",
+    "changed_sessions": 19,
+    "paragraph_text_and_cue_timing_unchanged": true
+  }
+}

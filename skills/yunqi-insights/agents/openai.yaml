@@ -1,0 +1,4 @@
+interface:
+  display_name: "云栖洞察"
+  short_description: "发现云栖大会感兴趣的话题，关联跨场次观点并总结提炼内嵌全文"
+  default_prompt: "使用 $yunqi-insights，根据我的兴趣发现云栖大会话题，并从内嵌全文提炼有依据的观点；回答及出处使用场次名称，编号仅作辅助；讲者姓名不附加花名或昵称。"
