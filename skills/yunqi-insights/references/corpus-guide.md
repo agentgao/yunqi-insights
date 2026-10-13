@@ -14,11 +14,28 @@
 | 覆盖的修订字幕条目 | 181,731 |
 | 只有缺失说明的场次 | 32 |
 
-2026 年官网目录共 119 场，87 场可分析全文加 32 场缺失说明覆盖这份目录。缺失清单及核查时间位于 [coverage.json](../data/coverage.json)；缺失不代表相关主题没有在大会出现。该 skill 是固定快照，不会联网更新。
+2026 年官网目录共 119 场，87 场可分析全文加 32 场缺失说明覆盖这份目录。缺失清单及核查时间位于 [coverage.json](../data/coverage.json)；缺失不代表相关主题没有在大会出现。内嵌语料是固定快照，不会自动同步网站更新。
 
 正文逐段保留已修订讲稿的全部文字、原视频起止时间和所属 cue ID，没有压缩成摘要。字幕中原本的相邻英文词空格、中文标点及口语表达按修订稿保留。段落 ID 为本快照内每场独立顺序编号，引用时必须同时给出 session ID。
 
-不含视频、音频、Slide 图片、HTML 页面或源项目代码。画面标题、章节摘要和要点用于检索与上下文定位，不代表已经查看画面，也不能替代讲者正文。
+内嵌资源不含视频、音频、Slide 图片、HTML 页面或源项目代码。图文页面与配图可通过下面的网站阅读。画面标题、章节摘要和要点用于检索与上下文定位，不代表已经查看画面，也不能替代讲者正文。
+
+## 在线图文阅读
+
+网站已上线：[云栖洞察](https://agentgao.github.io/yunqi-insights/)，支持图文精读、章节跳转、图片放大和幻灯片逐页阅读。下面路径均相对于网站根地址 `https://agentgao.github.io/yunqi-insights/`，无需添加 `site/`：
+
+| 阅读范围 | 路径 |
+| --- | --- |
+| 整场 | `sessions/<year>/<session-id>/index.html` |
+| 独立主题（`kind=topic`） | `sessions/<year>/<session-id>/topics/<topic-id>.html` |
+| 开闭场、串场等补充段 | 整场页加 `#topic-<segment-id>` |
+| 某张画面及对应讲稿 | 所属整场页或主题页加 `#topic-<segment-id>-block-<序号>` |
+
+年份、场次 ID 和主题 ID 从内嵌目录读取。例如 [AI Native：云基础设施的创新与发展](https://agentgao.github.io/yunqi-insights/sessions/2026/230/topics/topic-002.html) 属于“技术主论坛·Agentic Cloud”。该主题的第 3 张画面锚点是 `#topic-topic-002-block-3`；“论坛开场与欢迎”位于整场页的 `#topic-opening-001`。
+
+画面序号从该段 `blocks` 数组的第 **1** 项起算，不是 `block.id`；`p000123` 等段落 ID 不是网页锚点。补充段没有独立的 `topics/<segment-id>.html`。需要核对网页路径时，可查阅网站的 [catalog.json](https://agentgao.github.io/yunqi-insights/catalog.json)；其中 `href` 给出整场和独立主题的相对路径。
+
+给用户推荐或引用时使用可读的场次、主题名称作为链接文字。图文页用于阅读，官网 `official_url` 用于回看视频。网站不可访问时，仍可用内嵌全文分析；若网站正文与内嵌快照有差异，说明实际采用的来源，不将两者拼成一份未注明版本的原文。
 
 ## 文件结构
 
