@@ -1,0 +1,89 @@
+/* Publication-only additions; load after the original manuscript styles. */
+html {
+  scroll-padding-top: 144px;
+}
+
+.topbar {
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.topbar > .brand,
+.topbar > .reader-actions {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.topbar > .brand {
+  flex: 1 1 200px;
+  overflow-wrap: anywhere;
+}
+
+.topbar > .reader-actions {
+  flex: 0 1 auto;
+}
+
+.topbar .search-box {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.topbar input {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pages-navigation {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  min-width: 0;
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.pages-navigation a {
+  white-space: nowrap;
+}
+
+@media (min-width: 901px) {
+  .sidebar {
+    top: 128px;
+    max-height: calc(100vh - 160px);
+  }
+}
+
+@media (max-width: 680px) {
+  html {
+    scroll-padding-top: 200px;
+  }
+
+  .topbar {
+    gap: 8px 12px;
+  }
+
+  .topbar > .brand,
+  .topbar > .reader-actions,
+  .topbar > .pages-navigation {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .topbar > .reader-actions {
+    justify-content: flex-start;
+    gap: 8px 12px;
+  }
+}
+
+@media print {
+  html {
+    scroll-padding-top: 0;
+  }
+
+  .pages-navigation {
+    display: none;
+  }
+}
